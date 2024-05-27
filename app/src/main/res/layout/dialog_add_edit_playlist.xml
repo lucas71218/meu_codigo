@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/playlistNameEditText"
+        android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/playlist_name"
+    android:inputType="text"
+    android:minHeight="48dp"
+    android:autofillHints="autofill:playlist_name"
+    android:padding="12dp"
+    android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/songCountEditText"
+        android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/number_of_songs"
+    android:inputType="number"
+    android:minHeight="48dp"
+    android:autofillHints="autofill:number_of_songs"
+    android:padding="12dp"
+    android:maxLength="2" />
+</LinearLayout>

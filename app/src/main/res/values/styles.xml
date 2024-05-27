@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Cores -->
+    <color name="primaryColor">#FF4081</color>
+    <color name="accentColor">#FFC107</color>
+
+    <!-- Estilo de Texto -->
+    <style name="AppTheme.TextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Estilo de Botão -->
+    <style name="AppTheme.ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/rounded_button_background</item>
+    </style>
+
+    <!-- Tema do Aplicativo -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:textViewStyle">@style/AppTheme.TextStyle</item>
+        <item name="android:buttonStyle">@style/AppTheme.ButtonStyle</item>
+    </style>
+
+    <!-- Tema do Aplicativo -->
+    <style name="Theme.Activebeat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

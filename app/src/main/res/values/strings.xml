@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Activebeat</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    <string name="todo">TODO</string>
+    <string name="album_title">Album Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="m_sicas">Músicas</string>
+    <string name="artist_profile_description">Descrição da imagem de perfil do artista</string>
+    <string name="artist_name_placeholder">Nome do Artista</string>
+    <string name="navigation_icon_description">tela de musica</string>
+    <string name="album">tela de album</string>
+    <string name="artist">tela de artistas</string>
+    <string name="playlist">tela de playlist</string>
+    <string name="home">tela main</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_playlist">Edit</string>
+    <string name="delete_playlist">Delete</string>
+    <string name="Playlist_Name">playlistEdit</string>
+    <string name="number_of_songs">Number of songs: %1$d</string>
+    <string name="Next">Next</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="previous">Previous</string>
+    <string name="artista">Artista</string>
+    <string name="t_tulo_da_m_sica">Título da Música</string>
+    <string name="album_art_desc">Album art</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="update">Update</string>
+
+</resources>
